@@ -1,0 +1,8 @@
+<div class="row">
+ <div class="col-4"></div>
+  <div class="col-4">
+    <p class='text-white text-center mt-2' 
+    [ngClass]="{'bg-success': intervalNumber % 2 == 0, 'bg-danger': intervalNumber % 2 != 0}">{{intervalNumber}}</p>
+   </div>
+  <div class="col-4"></div>
+</div>
